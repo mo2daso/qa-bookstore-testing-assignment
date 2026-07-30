@@ -1,0 +1,281 @@
+{
+  "testRun": {
+    "id": 513,
+    "name": "Sprint 1 Regression & Smoke Cycle - Execution",
+    "status": "draft",
+    "executionDate": "2026-07-30T18:46:08.596Z"
+  },
+  "executions": [
+    {
+      "id": "exec-0",
+      "testCaseId": 4600,
+      "testCaseNumber": 3,
+      "testCaseName": "TC-003: Verify registration with weak/invalid password",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-1",
+      "testCaseId": 4602,
+      "testCaseNumber": 5,
+      "testCaseName": "TC-005: Verify login with invalid password",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-2",
+      "testCaseId": 4603,
+      "testCaseNumber": 6,
+      "testCaseName": "TC-006: Verify login with unregistered email",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-3",
+      "testCaseId": 4601,
+      "testCaseNumber": 4,
+      "testCaseName": "TC-004: Verify login with valid credentials",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-4",
+      "testCaseId": 4604,
+      "testCaseNumber": 7,
+      "testCaseName": "TC-007: Verify password reset via email link",
+      "status": "blocked",
+      "duration": 0,
+      "notes": "Test email service not configured in staging",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-5",
+      "testCaseId": 4605,
+      "testCaseNumber": 8,
+      "testCaseName": "TC-008: Verify browsing book catalog by category",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-6",
+      "testCaseId": 4609,
+      "testCaseNumber": 12,
+      "testCaseName": "TC-011: Verify search with no matching results",
+      "status": "failed",
+      "duration": 0,
+      "notes": "Blank page shown instead of a 'no results' message",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-7",
+      "testCaseId": 4613,
+      "testCaseNumber": 16,
+      "testCaseName": "TC-016: Verify updating quantity of an item in cart",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-8",
+      "testCaseId": 4617,
+      "testCaseNumber": 20,
+      "testCaseName": "TC-024: Verify checkout is blocked when cart is empty",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-9",
+      "testCaseId": 4621,
+      "testCaseNumber": 24,
+      "testCaseName": "TC-023: Verify page load time for catalog page",
+      "status": "failed",
+      "duration": 0,
+      "notes": "Observed ~3.4s load time on staging (target is 2s per NFR-01)",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-10",
+      "testCaseId": 4606,
+      "testCaseNumber": 9,
+      "testCaseName": "TC-012: Verify viewing book details page",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-11",
+      "testCaseId": 4607,
+      "testCaseNumber": 10,
+      "testCaseName": "TC-009: Verify search by book title returns correct results",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-12",
+      "testCaseId": 4608,
+      "testCaseNumber": 11,
+      "testCaseName": "TC-010: Verify search by author name",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-13",
+      "testCaseId": 4610,
+      "testCaseNumber": 13,
+      "testCaseName": "TC-013: Verify adding a book to cart",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-14",
+      "testCaseId": 4614,
+      "testCaseNumber": 17,
+      "testCaseName": "TC-017: Verify cart total updates correctly after changes",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-15",
+      "testCaseId": 4618,
+      "testCaseNumber": 21,
+      "testCaseName": "TC-020: Verify order confirmation email is sent after purchase",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-16",
+      "testCaseId": 4611,
+      "testCaseNumber": 14,
+      "testCaseName": "TC-014: Verify adding an out-of-stock book to cart",
+      "status": "blocked",
+      "duration": 0,
+      "notes": "Out-of-stock state not yet implemented on staging",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-17",
+      "testCaseId": 4615,
+      "testCaseNumber": 18,
+      "testCaseName": "TC-018: Verify checkout with valid shipping and payment details",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-18",
+      "testCaseId": 4619,
+      "testCaseNumber": 22,
+      "testCaseName": "TC-021: Verify viewing order history",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-19",
+      "testCaseId": 4612,
+      "testCaseNumber": 15,
+      "testCaseName": "TC-015: Verify removing an item from cart",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-20",
+      "testCaseId": 4616,
+      "testCaseNumber": 19,
+      "testCaseName": "TC-019: Verify checkout with invalid/expired card",
+      "status": "failed",
+      "duration": 0,
+      "notes": "Generic 'error occurred' message shown instead of a specific card error",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-21",
+      "testCaseId": 4620,
+      "testCaseNumber": 23,
+      "testCaseName": "TC-022: Verify cart persists across sessions for logged-in user",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-22",
+      "testCaseId": 4598,
+      "testCaseNumber": 1,
+      "testCaseName": "TC-001: Verify user registration with valid details",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    },
+    {
+      "id": "exec-23",
+      "testCaseId": 4599,
+      "testCaseNumber": 2,
+      "testCaseName": "TC-002: Verify registration with an already registered email",
+      "status": "passed",
+      "duration": 0,
+      "notes": "",
+      "screenshots": [],
+      "logOutput": ""
+    }
+  ],
+  "summary": {
+    "total": 24,
+    "passed": 19,
+    "failed": 3,
+    "skipped": 0,
+    "duration": 0
+  }
+}
